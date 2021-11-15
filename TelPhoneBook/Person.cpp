@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 #include "Person.h"
 void InputPerson(Person* p) {
 	printf("사람의 이름: ");
@@ -7,5 +7,5 @@ void InputPerson(Person* p) {
 	gets_s(p->phone, 20);
 }
 void PrintPerson(Person* p) {
-	printf("%s, %s\n", p->name, p->phone);
+	printf("Person: name:%s, phone:%s\n", p->name, p->phone);
 }

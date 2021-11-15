@@ -11,5 +11,7 @@ void InitPersonArray(PersonArray* pa);
 void UninitPersonArray(PersonArray* pa);
 void AddPersonArray(PersonArray* pa);
 void PrintPersonArray(PersonArray* pa);
-
+void WriteTextPersonArray(PersonArray* pa);
+void SearchPersonArray(PersonArray* pa);
+void RemovePersonArray(PersonArray* pa);
 

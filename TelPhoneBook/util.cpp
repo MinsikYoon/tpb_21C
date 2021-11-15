@@ -11,3 +11,7 @@ void menu() {
 	puts("0. 프로그램 종료");
 	puts("");
 }
+
+void flush() {
+	while (getchar() != '\n');
+}
